@@ -48,6 +48,7 @@ router.delete('/:id', async (req, res)=>{
     
 })
 
+//resources update
 router.put('/', async (req, res)=>{
     try {
         console.log(req.body)
