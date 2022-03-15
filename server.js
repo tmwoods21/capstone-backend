@@ -6,7 +6,7 @@ require('./db')
 
 //APP CONFIGS
 const PORT = process.env.PORT || 8000
-const acceptList = ["http://localhost:3000"]
+const acceptList = ["http://localhost:3000", "https://still-garden-49174.herokuapp.com"]
 const options = {
     origin: function(origin, callback){
         // if the origin argument is in the acceprlist -> continue
