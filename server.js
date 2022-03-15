@@ -5,7 +5,7 @@ const cors = require('cors')
 require('./db')
 
 //APP CONFIGS
-const PORT = 3000
+const PORT = 8000
 const acceptList = ["http://localhost:3000"]
 const options = {
     origin: function(origin, callback){
